@@ -1,0 +1,50 @@
+.project_slider_element
+  .row
+    .col-sm-8.col-sm-offset-2
+      .intro
+        %h1 
+          Du möchtest Direkt für ein Projekt
+          %br/
+          der Krebshilfe NRW Spenden?
+        %p
+          Sed ut perspiciatis unde omnis iste natus 
+          error sit voluptatem accusantium doloremque 
+          laudantium, totam rem aperiam, eaque ipsa quae 
+          ab illo inventore veritatis et quasi architecto 
+          beatae vitae dicta sunt explicabo.
+
+  .row.slider_navigation
+    %p
+      %strong Projekt auswaehlen
+    %ul
+      {% for blueprint in contents.blueprints%}
+      {% if blueprint.active %}
+      %li{data: {'target' => '#carousel-projects', 'slide-to' => '{{forloop.index | minus: 1}}'}} {{forloop.index}}
+      {% endif %}
+      {% endfor %}
+
+  .row
+    #carousel-projects.carousel.slide{data: {'ride' => 'carousellll'}}
+      .carousel-inner
+        {% for blueprint in contents.blueprints%}
+        {% if blueprint.active %}
+        %div{class: "item item-{{ forloop.index }}"}
+          .item_contents
+            .img
+              %img{src: "{{ blueprint.main_image.url | resize: '300x240#' }}", alt: "{{blueprint.title}}"}/
+              
+            .description
+              %h1 {{ blueprint.title }}
+              %p 
+                {{ blueprint.description | truncatewords: 48 }}
+                
+
+              .donation_box
+                %p Ich möchte gern folgende Summe spenden:
+                %a.btn_minus{href: "#"}
+                %input.donation_amount{type: "text", value: "30 €", readonly: "readonly"}/
+                %a.btn_plus{href: "#"}
+                %br/
+                %a.btn_small.btn_submit_donation{href: "#"} Jetzt Spenden
+        {% endif %}
+        {% endfor %}

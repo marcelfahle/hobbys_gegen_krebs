@@ -1,0 +1,72 @@
+# Public name of this content type
+name: Projekt Vorschlaege
+
+# TODO: explain
+slug: blueprints
+
+# Explanation for the backoffice
+description: Projekt Vorschlaege als Inspiration fuer den User
+
+# Default field (e.g title)
+label_field_name: title
+
+# Order of entries
+order_by: manually # default: manually, also available: created_at or any field slug
+
+# Order direction
+# order_direction: asc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Emails to be notified on new entries using the public API
+# public_submission_accounts: ['john@acme.net']
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- title: # Name of the field
+    label: Titel
+    type: string
+    required: true
+    hint: Der Titel des Projekt-Vorschlags
+    localized: false
+
+- description: # Name of the field
+    label: Beschreibung
+    type: text
+    required: true
+    hint: Die Beschreibung des Text Vorschlags
+    localized: false
+    # Enable or not the RTE [html|text]
+    # text_formatting: html
+
+- main_image: # Name of the field
+    label: Bild
+    type: file
+    required: false
+    hint: Das Hauptbild fuer die Darstellung im Slider
+    localized: false
+
+- circle_image: # Name of the field
+    label: Kreisrundes Bild
+    type: file
+    required: true
+    hint: Bild im Kreisrahmen zur Darstellung auf der Projektseite (siehe PSD Template)
+    localized: false
+
+- posted: # Name of the field
+    label: Erstellt am
+    type: date_time
+    required: true
+    hint: Wann wurde der Vorschlag angelegt?
+    localized: false
+
+- active: # Name of the field
+    label: Active
+    type: boolean
+    required: false
+    hint: Auf der Website anzeigen?
+    localized: false

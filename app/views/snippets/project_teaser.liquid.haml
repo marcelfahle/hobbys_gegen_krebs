@@ -1,0 +1,29 @@
+.row.projects_teaser
+  {% for project in contents.projects%}
+  {% if project.active %}
+  .project.col-sm-3
+    .project_content
+      %img{src: "{{ project.featured_image.url |  resize: '213x160#' }}", alt: "{{project.title}}"}/
+      %h1 {{ project.title }}
+      %p 
+        {{ project.body | truncatewords: 20 }}
+        %a.fancybox{href: "#project_detail-{{forloop.index}}"} weiter lesen
+      %p.author 
+        von 
+        %strong {{ project.author }}
+    .project_details{id: "project_detail-{{forloop.index}}"}
+      .project_details_inner
+        .img
+          %img{src: "{{ project.featured_image.url |  resize: '300x240#' }}", alt: "{{project.title}}"}/
+        .description
+          %h1 {{ project.title }}
+          %p 
+            {{ project.body  }}
+          %p.author 
+            von 
+            %strong {{ project.author }}
+  {% endif %}
+  {% endfor %}
+.row
+  .show_more_projects
+    %a.btn_large{href: "#"} Alle Berichte anzeigen

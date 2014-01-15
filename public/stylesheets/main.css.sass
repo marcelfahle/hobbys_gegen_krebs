@@ -1,0 +1,485 @@
+
+
+html, body
+  //height: 100%
+  min-height: 100%
+.container-fixed
+  margin: 0 auto
+  max-width: 940px
+  min-height: 100%
+
+
+header
+  position: relative
+  height: 418
+  .nav
+    position: relative
+    z-index: 30
+    padding-right: 0
+  .logo
+    position: relative
+    z-index: 30
+    margin-top: 17px
+    img 
+      max-width: 256px
+
+  ul
+    list-style: none
+    text-align: right
+    li
+      display: inline
+      a
+        font-family: 'Antonio', sans-serif
+      a:link, a:visited
+        color: #58595b
+      a:hover, a:active
+        color: #e98b31
+        text-decoration: none
+    li.active
+      a
+        color: #e98b31
+
+
+  .metanav
+    ul
+      margin-bottom: 23px
+      li
+        padding-left: 34px
+        a
+          font-size: 12px
+
+  nav
+    ul
+      li
+        padding-left: 38px
+        a
+          font-size: 18px
+          text-transform: uppercase
+  .hero
+    position: relative
+    text-align: center
+    margin-top: 90px
+    img
+      margin: 0px 0 0 -640px
+      position: absolute
+      z-index: 10
+      left: 50%
+      #margin-bottom: 45px
+    .container
+      position: relative
+      z-index: 20
+      h1
+        color: #58595b
+        font-family: 'Antonio', sans-serif
+        font-size: 50px
+        text-transform: uppercase
+        letter-spacing: 1.5px
+        margin-bottom: 7px
+        margin-top: 0
+        display: block
+      p
+        color: #58595b
+        font-size: 18px
+        font-family: 'Istok Web', sans-serif
+
+
+body.index
+  .hero
+    margin-top: 0
+    img
+      margin-top: 0
+      z-index: 10
+    h1
+      margin-top: 55px
+    h1, p
+      color: #fff
+  .link_to_home
+    a
+      color: #e98b31
+body.ueber-uns .ueber-uns a, body.kontakt .kontakt a, body.impressum .impressum a
+  color: #e98b31
+
+body.index
+  background: #fff url('/images/footer_gradient.png') bottom left repeat-x
+
+
+hr.divider 
+  margin-top: 35px
+  margin-bottom: 35px
+  height: 2px
+  background: #f4c598
+  border: 0
+  max-width: 246px
+
+.intro
+  text-align: center
+  margin-bottom: 100px
+  h1
+    font-family: 'Antonio', sans-serif
+    font-size: 24px
+    text-transform: uppercase
+    margin-bottom: 22px
+    color: #e98b31
+  h1+p
+    color: #e98b31
+    font-family: 'Istok Web', sans-serif
+    font-size: 18px
+  .infocol
+    h2
+      font-family: 'Antonio', sans-serif
+      font-size: 18px
+      text-transform: uppercase
+      color: #e98b31
+    p
+      font-family: 'Istok Web', sans-serif
+      font-size: 14px
+      
+.whatsyourhobby
+  height: 518px
+  position: relative
+  margin-bottom: 30px
+  .form_wrapper
+    height: 518px
+    width: 1280px
+    margin: 0px 0 0 -640px
+    position: absolute
+    background: url('/images/whatsyourhobby-bg.jpg') no-repeat
+    left: 50%
+    .container
+      margin: 0 auto
+      max-width: 940px
+      color: #fff
+      .inner_form_wrapper
+        padding-top: 48px
+        max-width: 50%
+        overflow: auto
+        h1
+          font-family: 'Antonio', sans-serif
+          font-size: 36px
+          text-transform: uppercase
+        p
+          font-family: 'Istok Web', sans-serif
+          font-size: 18px
+        input[type=text], textarea
+          padding: 8px 10px
+          color: #414042
+          font-family: 'Istok Web', sans-serif
+          font-size: 18px
+          margin-bottom: 13px
+        input[type=text]
+          height: 30px
+          width: 240px
+          margin-right: 6px
+        textarea
+          width: 422px
+        span
+          font-family: 'Antonio', sans-serif
+          font-size: 24px
+          text-transform: uppercase
+          display: inline-block
+          line-height: 32px
+          vertical-align: middle
+
+
+        
+
+.hobby_ideas
+  text-align: center
+  margin-bottom: 58px
+  .hobby_ideas_wrapper
+    margin: 0 auto
+    max-width: 940px
+    margin-bottom: 60px
+  >h1
+    text-align: center
+    color: #58595b
+    font-size: 36px
+    font-family: 'Antonio', sans-serif
+    margin-bottom: 27px
+  .hobby_idea
+    background: #f1f2f2
+    padding: 8px
+    width: 318px
+    margin: 1px
+    overflow: auto
+    text-align: left
+    font-family: 'Istok Web', sans-serif
+    h1
+      color: #e98b31
+      font-size: 18px
+      margin: 0
+      margin-bottom: 4px
+    p
+      color: #58595b
+      font-size: 14px
+    p.author
+      font-size: bold
+      margin-bottom: 0
+      
+.howto_teaser
+  text-align: center
+  color: #6d6e71
+  position: relative
+  min-height: 264px
+  margin-bottom: 12px
+  .content_wrapper
+    width: 1280px
+    margin: 0px 0 0 -640px
+    position: absolute
+    background: #e6e7e8
+    padding-bottom: 24px
+    left: 50%
+    .container
+      max-width: 800px
+      hr.divider
+        background: #b3b5b7
+        margin-top: 20px
+        margin-bottom: 25px
+      hr.divider:nth-child(2)
+        margin-bottom: 45px
+      h1
+        font-family: 'Antonio', sans-serif
+        font-size: 24px
+        text-transform: uppercase
+
+.experience_call_to_action_teaser
+  text-align: center
+  margin-bottom: 70px
+  h1
+    font-family: 'Antonio', sans-serif
+    text-transform: uppercase
+    color: #383580
+  p
+    font-family: 'Istok Web', sans-serif
+    color: #6d6e71
+  .intro_text
+    margin-bottom: 28px
+    h1
+      font-size: 24px
+      margin-bottom: 20px
+    p
+      font-size: 18px
+  .actioncol
+    min-height: 220px
+    position: relative
+    h1
+      font-size: 18px
+    p
+      font-size: 14px
+    a
+      position: absolute
+      bottom: 0
+      left: 50%
+      margin-left: -125px
+
+      
+.projects_teaser
+  margin-bottom: 20px
+  .project
+    .project_content
+      height: 296px
+      margin-bottom: 28px
+      img
+        max-width: 213px
+      h1
+        color: #58595b
+        font-size: 14px
+        font-weight: bold
+        margin-top: 10px
+        margin-bottom: 10px
+      p
+        font-size: 11px
+        margin-bottom: 0px
+        a
+          color: #e98b31
+      p.author
+        margin-top: 10px
+.show_more_projects
+  margin-bottom: 95px
+  text-align: center
+
+.project_details
+  display: none
+  .project_details_inner
+    margin: 0 auto
+    max-width: 800px
+    position: relative
+    .img
+      float: left
+      max-width: 300px
+      min-height: 240px
+      margin-right: 20px
+    p
+      font-size: 14px
+      color: #58595b
+      font-family: 'Istok Web', sans-serif
+    .description
+      position: relative
+      min-height: 240px
+      h1
+        font-size: 24px
+        color: #414042
+        font-family: 'Antonio', sans-serif
+        margin: 0
+        
+
+.project_slider_element
+  .intro
+    text-align: center
+    h1, p
+      color: #414042
+    p
+      font-size: 14px
+      font-family: 'Istok Web', sans-serif
+
+  .slider_navigation
+    text-align: center
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+      li
+        display: inline-block
+        line-height: 45px
+        margin-left: 9px
+        margin-right: 9px
+        font-size: 34px
+        font-family: 'Istok Web', sans-serif
+        width: 40px
+        height: 40px
+        background: transparent url('/images/slider_circle.png') no-repeat
+        color: #808285
+        cursor: pointer
+      li.active
+        background-position: 0 -40px 
+        color: #e98b31 !important
+.carousel
+  .carousel-inner
+    margin-top: 40px
+    .item
+      .item_contents
+        margin: 0 auto
+        max-width: 800px
+        position: relative
+        .img
+          float: left
+          max-width: 300px
+          min-height: 240px
+          margin-right: 20px
+        p
+          font-size: 14px
+          color: #58595b
+          font-family: 'Istok Web', sans-serif
+        .description
+          position: relative
+          min-height: 240px
+          h1
+            font-size: 24px
+            color: #414042
+            font-family: 'Antonio', sans-serif
+            margin: 0
+          .donation_box
+            position: absolute
+            bottom: 0
+            left: 320px
+            .btn_plus, .btn_minus
+              width: 30px
+              height: 30px
+              text-indent: -9999em
+              display: inline-block
+              vertical-align: top
+            .btn_plus
+              background: transparent url('/images/btn_plus.png') no-repeat
+            .btn_minus
+              background: transparent url('/images/btn_minus.png') no-repeat
+            input
+              height: 30px
+              border: 1px solid #d7d9da
+              margin: 0 10px
+              width: 80px
+              text-align: center
+            .btn_submit_donation
+              margin-top: 32px
+              text-align: center
+        
+
+
+footer
+  height: 95px
+  bottom: 0
+  width: 100%
+  //max-width: 940px
+  margin-top: 145px
+  .content_wrapper
+    width: 1280px
+    margin: 0px 0 0 -640px
+    position: absolute
+    left: 50%
+    height: 95px
+    background: #939598
+    text-align: center
+    display: inline-block
+    vertical-align: middle
+  .helper
+    height: 100%
+    display: inline-block
+    vertical-align: middle
+  img
+    overflow: auto
+    margin: auto
+    max-width: 332px
+    max-height: 95px
+    width: 100%
+    padding-left: 17px
+    padding-right: 17px
+    vertical-align: middle
+
+
+
+.btn_small 
+  height: 30px
+  background: #e98b31 url('/images/btn_bg_small.png') top right no-repeat
+  color: #fff
+  bordeR: none
+  min-width: 150px
+  padding-right: 30px
+  font-family: 'Antonio', sans-serif
+  font-size: 16px
+  text-transform: uppercase
+  line-height: 30px
+  vertical-align: middle
+
+.actioncol .btn_small
+  min-width: 250px
+  width: 250px
+
+.btn_large
+  height: 34px
+  background: #e98b31 url('/images/btn_bg_large.png') top right no-repeat
+  color: #fff
+  bordeR: none
+  min-width: 334px
+  padding-right: 34px
+  font-family: 'Antonio', sans-serif
+  font-size: 21px
+  line-height: 34px
+  vertical-align: middle
+  text-transform: uppercase
+
+a.btn_small, a.btn_large
+  display: inline-block
+
+.btn_large:link, .btn_large:visited, .btn_large:hover, .btn_large:active,
+.btn_small:link, .btn_small:visited, .btn_small:hover, .btn_small:active
+  color: #fff
+  text-decoration: none
+
+
+::-webkit-input-placeholder
+  color: #414042
+\:-moz-placeholder
+  color: #414042
+::-moz-placeholder
+  color: #414042
+\:-ms-input-placeholder
+  color: #414042

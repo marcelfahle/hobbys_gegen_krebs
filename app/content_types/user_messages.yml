@@ -1,0 +1,65 @@
+# Public name of this content type
+name: User Hobby Vorschlaege
+
+# TODO: explain
+slug: user_messages
+
+# Explanation for the backoffice
+description: Hobbys, die von Usern uebermittelt werden
+
+# Default field (e.g title)
+label_field_name: title
+
+# Order of entries
+order_by: manually # default: manually, also available: created_at or any field slug
+
+# Order direction
+# order_direction: asc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+public_submission_enabled: true
+
+# Emails to be notified on new entries using the public API
+public_submission_accounts: ['m.fahle@gmail.com', 'marcel.fahle@gmail.com']
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- name: # Name of the field
+    label: Name
+    type: string
+    required: true
+    hint: Name des Users
+    localized: false
+
+- email: # Name of the field
+    label: Email
+    type: string
+    required: true
+    hint: E-Mail Adresse des Users
+    localized: false
+
+- title: # Name of the field
+    label: Title
+    type: string
+    required: true
+    hint: Hobby des Users
+    localized: false
+
+- message: # Name of the field
+    label: Message
+    type: text
+    required: true
+    hint: Beschreibung des Hobbys
+    localized: false
+    # Enable or not the RTE [html|text]
+    # text_formatting: html
+
+- active: # Name of the field
+    label: Active
+    type: boolean
+    required: false
+    hint: Auf der Website anzeigen?
+    localized: false

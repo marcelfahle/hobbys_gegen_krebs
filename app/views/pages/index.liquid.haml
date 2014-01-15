@@ -1,0 +1,210 @@
+---
+title: Startseite
+published: true
+---
+!!!
+%html{lang: "en"}
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "content-type"}/
+    %meta{charset: "utf-8"}/
+    %title {{ page.title }} - {% if page.seo_title %}{{ page.seo_title }}{% else %}{{ site.seo_title }}{% endif %}
+    %meta{content: "Bootply", name: "generator"}/
+    %meta{content: "width=device-width, initial-scale=1, maximum-scale=1", name: "viewport"}/
+
+    {{ 'bootstrap.css' | stylesheet_tag }}
+    {{ 'fonts.css' | stylesheet_tag }}
+    {{ 'jquery.fancybox.css' | stylesheet_tag }}
+    {{'main' | stylesheet_tag }}
+    /[if lt IE 9]
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    %link{rel: "shortcut icon", href: "/samples/favicon.png"}/
+    %link{rel: "apple-touch-icon-precomposed", sizes: "144x144", href: "/samples/apple-touch-icon-144x144-precomposed.png"}/
+    %link{rel: "apple-touch-icon-precomposed", sizes: "114x114", href: "/samples/apple-touch-icon-114x114-precomposed.png"}/
+    %link{rel: "apple-touch-icon-precomposed", sizes: "72x72", href: "/samples/apple-touch-icon-72x72-precomposed.png"}/
+    %link{rel: "apple-touch-icon-precomposed", href: "/samples/apple-touch-icon-precomposed.png"}/
+    %link{href: 'http://fonts.googleapis.com/css?family=Istok+Web', rel:'stylesheet', type:'text/css'}/
+  %body{class:"{{ page.slug }}"}
+    .container-fixed
+      %header.clearfix
+        .logo.col-sm-4
+          %img{src: "{{ 'sitelogo.png' | theme_image_url }}", alt: "Krebsgesellschaft Nordrhein Westfalen e.V."}/
+        .nav.col-sm-8
+          .metanav
+            %ul
+              %li.ueber-uns 
+                %a{href: "/ueber-uns", title: ""} Krebsgesellschaft NRW
+              %li.kontakt 
+                %a{href: "/kontakt", title: ""} Kontakt
+              %li.impressum
+                %a{href: "/impressum", title: ""} Impressum
+          .mainnav
+            %nav
+              %ul
+                %li.link_to_home
+                  %a{href: "/", title: ""} Start
+                {% nav 'site', no_wrapper: true, active_class: "active" %}
+
+        .hero.row
+          {% if page.slug == 'index' %}
+          {% capture header_photo %}{% editable_file "header_photo", priority: 120, hint: "Großes Header Foto (Groeße: 1280px x 328px / fuer Home: 1280px x 720px)" %}/samples/pages/hero_home.jpg{% endeditable_file %}{% endcapture %}
+          {% else %}
+          {% capture header_photo %}{% editable_file "header_photo", priority: 120, hint: "Großes Header Foto (Groeße: 1280px x 328px / fuer Home: 1280px x 720px)" %}/samples/pages/hero_umsetzung.jpg{% endeditable_file %}{% endcapture %}
+          {% endif %}
+
+          %img.clearfix{src: "{{ header_photo }}", alt: "Setze deine Veranstaltung um."}/
+          .container
+            %h1 
+              {% editable_text "intro_headline", priority: 100, rows: 1, format: 'text', hint: 'Die große Ueberschrift' %}
+              Setze deine Veranstaltung um.
+              {% endeditable_text %}
+            {% editable_text "intro_text", rows: 3, priority: 90 %}
+            %p
+              Du hast Dich entschlossen mitzumachen. Super!
+              %br/
+              Jetzt geht es darum Deine „Hobby gegen Krebs“- Veranstaltung Schritt für Schritt zu
+              %br/
+              planen und durchzuführen.
+            {% endeditable_text %}
+
+      {% block main %}
+      .row.intro
+        %hr.divider
+        %h1 Wie kannst du dein Hobby nutzen?
+        %p
+          Jedes Hobby lässt sich nutzen, um Spendengelder gegen Krebs zu sammeln.
+          %br/
+          Hier sind nur ein paar grundsätzliche Ideen von uns:
+        %hr.divider
+
+        .infocol.col-sm-3
+          %img{src: "{{ 'icon-vorfuehren.png' | theme_image_url }}", alt: "Vorfuehren"}/
+          %h2 VORFÜHREN
+          %p
+            Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
+            Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
+        .infocol.col-sm-3
+          %img{src: "{{ 'icon-verkaufen.png' | theme_image_url }}", alt: "Verkaufen"}/
+          %h2 VERKAUFEN
+          %p
+            Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
+            Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
+        .infocol.col-sm-3
+          %img{src: "{{ 'icon-vortragen.png' | theme_image_url }}", alt: "Vortragen"}/
+          %h2 VORTRAGEN
+          %p
+            Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
+            Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
+        .infocol.col-sm-3
+          %img{src: "{{ 'icon-erleben.png' | theme_image_url }}", alt: "Erleben"}/
+          %h2 ERLEBEN
+          %p
+            Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
+            Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
+
+
+      .row.whatsyourhobby
+        .form_wrapper
+          .container
+            .inner_form_wrapper
+              %h1 Dein Hobby gegen Krebs
+              %p
+                Was ist Dein Hobby, dass Du gegen Krebs nutzen könntest? 
+                Lass es uns wissen und inspiriere andere. 
+              %form{method: "POST", action: "{{contents.user_messages.public_submission_url}}"}
+                {% csrf_param %}
+                %input{type: "hidden", value: "/", name: "success_callback"}
+                %input{type: "hidden", value: "/contact", name: "error_callback"}
+
+                {% if user_messages.errors %}
+                %p The following errors occured:
+                %ul
+                  {% for error in user_messages.errors %}
+                  %li 
+                    {{ error[0] | capitalize}} - {{error[1]}}
+                  {% endfor %}
+                {% endif %}
+
+                %input{type: "text", name: "content[title]", value: "{{user_messages.title}}", placeholder: "Mein Hobby"}
+                %span GEGEN KREBS
+                %textarea{name: "content[message]", rows:4, placeholder: "Das könnte ich konkret machen"}
+                  {{user_messages.message}}
+                %input{type: "text", name: "content[name]", value: "{{user_messages.name}}", placeholder: "Mein Name"}
+                %input{type: "text", name: "content[email]", value: "{{user_messages.email}}", placeholder: "Meine E-Mail Adresse"}
+                %input.btn_small{type: "submit"}
+
+
+      .row.hobby_ideas_teaser.hobby_ideas
+        %h1 NEUESTE HOBBY-IDEEN
+
+        .hobby_ideas_wrapper.js-masonry{:data => {'masonry-options' => '{"isFitWidth": true, "itemSelector": ".hobby_idea"}' }}
+          {% for idea in contents.user_messages %}
+          {% if idea.active %}
+          .hobby_idea
+            %h1 {{ idea.title }}
+            %p {{ idea.message }}
+            %p.author {{ idea.name }}
+          {% endif %}
+          {% endfor %}
+
+        %a.btn_large{href: "#"} Alle Hobby Ideen Anzeigen
+
+      .row.howto_teaser
+        .content_wrapper
+          .container
+            %hr.divider
+            .row
+              %h1 Wie setze ich das um?
+              %p.col-sm-10.col-sm-offset-1
+                Jedes Hobby und jede noch so kleine Veranstaltung und Spende ist willkommen. Um Dir die Umsetzung zu erleichtern, haben wir einen groben Fahrplan für die Umsetzung erstellt. 
+            .row
+              %hr.divider
+              %a.btn_large{href: "#"} Jetzt mein Hobby umsetzen
+
+      .row.experience_call_to_action_teaser
+        .intro_text.clearfix
+          %h1 Schon Umgesetzt?
+          %p.col-sm-10.col-sm-offset-1
+            Hast Du bereits ein Projekt erfolgreich in die Tat umgesetzt?
+            Hier kannst Du Deinen Beitrag teilen und die gesammelten Gelder für einen guten Zweck
+            überweisen. Vielen Dank für Deine Hilfe Lorem.
+
+        .row
+          .actioncol.col-sm-5.col-sm-offset-1
+            %img{src: "{{ 'icon-kassensturz.png' | theme_image_url }}", alt: "Kassensturz"}/
+            %h1 Kassensturz
+            %p
+              Dein Event ist vorbei und Du und Deine Freunde hatten eine gute Zeit. Über unser Online-Formular kannst Du uns nun einfach und sicher Deine Spenden-Einnahmen
+              zukommen lassen.
+            %a.btn_small{href: "#"} Spenden Überweisen
+          .actioncol.col-sm-5
+            %img{src: "{{ 'icon-erfahrungteilen.png' | theme_image_url }}", alt: "Erfahrung teilen"}/
+            %h1 Erfahrung teilen
+            %p
+              Und? Wie war Deine Veranstaltung? Lass es uns wissen und inspiriere andere sich ebenfalls für Hobbys gegen Krebs zu engagieren.
+            %a.btn_small{href: "#"} Erfahrung teilen
+
+      {% include project_teaser %}
+         
+
+
+      {% include project_carousel %}
+
+
+      {% endblock %}
+
+      %footer
+        .content_wrapper
+          %span.helper
+          %img{src: "{{ 'footerlogo.png' | theme_image_url }}", alt: "Krebsgesellschaft Nordrhein Westfalen e.V."}/
+
+
+
+    %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", type: "text/javascript"}
+    {{ 'bootstrap.min.js' | javascript_tag }}
+    {{ 'masonry.pkgd.min.js' | javascript_tag }}
+    {{ 'jquery.mousewheel-3.0.6.pack.js' | javascript_tag }}
+    {{ 'jquery.fancybox.pack.js' | javascript_tag }}
+    {{ 'main.js' | javascript_tag }}
+    :javascript
+      $(document).ready(function() {
+      });

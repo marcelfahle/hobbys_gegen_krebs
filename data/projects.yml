@@ -1,0 +1,48 @@
+- "Sample 1":
+    featured_image: "samples/project1.jpg"
+    body: "Culpa voluptatem et hic eaque aut saepe commodi. Esse architecto nam et accusamus atque consequatur. Asperiores qui eius unde deleniti incidunt. In soluta est nam quo. Praesentium corporis esse sunt minus nobis."
+    author: "Marcel Fahle"
+    active: true
+
+- "Sample 2":
+    featured_image: "samples/project2.jpg"
+    body: "Quod quo nam cumque quia illum voluptas. In sit voluptatibus est quibusdam magni nihil. Est soluta sed impedit aliquam enim praesentium ut. Debitis saepe temporibus sed."
+    author: "Ian Wright"
+    active: true
+
+- "Sample 3":
+    featured_image: "samples/project3.jpg"
+    body: "Quia repellat iste minima. Molestiae quam eum iure. Aut eum maxime et."
+    author: "Frau Holle"
+    active: true
+
+- "Sample 4":
+    featured_image: "samples/project4.jpg"
+    body: "Voluptatem dolore est earum quis. Distinctio ipsum quos laborum sunt repudiandae. Illum consequuntur id et dignissimos odio eius. Voluptate eum et nam debitis laudantium."
+    author: "Ed von Schleck"
+    active: true
+
+- "Sample 2":
+    featured_image: "samples/project2.jpg"
+    body: "Quod quo nam cumque quia illum voluptas. In sit voluptatibus est quibusdam magni nihil. Est soluta sed impedit aliquam enim praesentium ut. Debitis saepe temporibus sed."
+    author: "Ian Wright"
+    active: true
+
+- "Sample 3":
+    featured_image: "samples/project3.jpg"
+    body: "Quia repellat iste minima. Molestiae quam eum iure. Aut eum maxime et."
+    author: "Frau Holle"
+    active: true
+
+- "Sample 4":
+    featured_image: "samples/project4.jpg"
+    body: "Voluptatem dolore est earum quis. Distinctio ipsum quos laborum sunt repudiandae. Illum consequuntur id et dignissimos odio eius. Voluptate eum et nam debitis laudantium."
+    author: "Ed von Schleck"
+    active: true
+
+- "Sample 1":
+    featured_image: "samples/project1.jpg"
+    body: "Culpa voluptatem et hic eaque aut saepe commodi. Esse architecto nam et accusamus atque consequatur. Asperiores qui eius unde deleniti incidunt. In soluta est nam quo. Praesentium corporis esse sunt minus nobis."
+    author: "Marcel Fahle"
+    active: true
+

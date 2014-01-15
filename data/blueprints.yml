@@ -1,0 +1,24 @@
+- "Project 1":
+    description: "Ipsam et nobis error veritatis provident ex soluta recusandae. Recusandae dolores iusto sunt quas illo quisquam sequi. Reiciendis consequatur minus sit officia aut."
+    main_image: "samples/project3.jpg"
+    circle_image: "samples/project3.jpg"
+    active: true
+
+- "Project 2":
+    description: "Qui enim repellat totam rem. Aut accusamus nihil numquam culpa quaerat debitis autem. Aut non qui a."
+    main_image: "samples/project2.jpg"
+    circle_image: "samples/project2.jpg"
+    active: true
+
+- "Project 3":
+    description: "Adipisci id accusantium doloribus odit est quia reprehenderit. Aut quibusdam facilis ex culpa tenetur et aliquam sit. Itaque aspernatur tempore minima sint beatae iste et laborum. Voluptas ducimus eum corporis ut in minus."
+    main_image: "samples/project3.jpg"
+    circle_image: "samples/project3.jpg"
+    active: true
+
+- "Project 4":
+    description: "Harum officia cumque dolore aut. Eos saepe magni minus aut deleniti corrupti alias. Exercitationem sit ut repudiandae ex eius debitis. Vel et voluptatem mollitia aut. Laudantium aut possimus eum consequatur voluptate eos vel."
+    main_image: "samples/project4.jpg"
+    circle_image: "samples/project4.jpg"
+    active: false
+
