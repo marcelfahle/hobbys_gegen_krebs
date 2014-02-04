@@ -1,20 +1,22 @@
 $ ->
   $(".fancybox").fancybox()
 
-  adjustHeroContentTopPosition = () ->
-    $('.hero img').on('load', ->
-      to_margin = $('.hero img').height() + 45
-      $('.hero .container h1').css 'margin-top', "#{to_margin}px"
-      $('.index .hero .container h1').css 'margin-top', "55px"
-      $('.index .hero').height($('.index .hero img').height())
-    ).each( ->
-      $(@).trigger('load') if @.complete
-    )
+
+
+  #adjustHeroContentTopPosition = () ->
+  #  $('.hero img').on('load', ->
+  #    to_margin = $('.hero img').height() + 45
+  #    $('.hero .container h1').css 'margin-top', "#{to_margin}px"
+  #    $('.index .hero .container h1').css 'margin-top', "55px"
+  #    $('.index .hero').height($('.index .hero img').height())
+  #  ).each( ->
+  #    $(@).trigger('load') if @.complete
+  #  )
 
   # adjusts hero height on homepage, where the image is super large
   #$('.hero').height($('.hero img').height()) if $('.hero img').height() > $('.hero').height()
 
-  adjustHeroContentTopPosition()
+    #adjustHeroContentTopPosition()
 
 
   # carousel stuff
@@ -38,14 +40,17 @@ $ ->
     setDonation -10, e
   setDonation = (to, btn) ->
     $box = $($(btn.currentTarget).parent().find('input')[0])
+    $link = $($(btn.currentTarget).parent().find('.btn_submit_donation')[0])
     current = parseInt($box.val().split(" ")[0])
     current += to
     $box.val("#{current} €") if current >= 10
+    console.log $link
+    $link.attr 'href', "/spenden?amount=#{current}"
   $('.btn_submit_donation').on 'click', (e) ->
-    e.preventDefault()
+    #e.preventDefault()
     $box = $($(e.currentTarget).parent().find('input')[0])
     amount = parseInt($box.val().split(" ")[0])
-    alert "donating #{amount}"
+    #alert "donating #{amount}"
 
 
 

@@ -11,7 +11,7 @@ published: true
 position: 4
 
 # sets a redirection to the given url (301)
-redirect_url: "http://supersieben.de/"
+#redirect_url: "http://supersieben.de/"
 
 # content type that this page is templatizing
 # content_type: "<slug of one of the content types>"
@@ -24,6 +24,51 @@ redirect_url: "http://supersieben.de/"
 
 {% block main %}
 
-%p Hello world
+.row 
+  .fundraisingbox.col-sm-8.col-sm-offset-2.clearfix
+    
+    :plain
+      <script type="text/javascript" src="https://secure.fundraisingbox.com/app/paymentJS?hash=UuuxagAK26d7eeGUM9GCUFGO8jFJQ8PyPRylnSjjl19HjfE2T3H6%2FjsYlZAg%2BINXG5G5ZWRx8bIXS8CAIqeOXn3U4SstaabiRA2E2Q%2B3hHR8jbVBLTe34nJb2IVGr9MjMty6Rx0Et%2FAnNYyNV%2F6BJQ%3D%3D&amount={{ params.amount }}"></script><noscript>Bitte Javascript aktivieren</noscript><a target="_blank" href="http://www.fundraisingbox.com"><img border="0" style="border: 0 !important" src="https://secure.fundraisingbox.com/images/FundraisingBox-Logo-Widget.png" alt="FundraisingBox Logo" /></a>
+
+
+.impressum_content.row
+  .impressumcol.col-sm-4.col-sm-offset-2
+    %h2 Spendenkonten
+    {% editable_text "spendenkonto1", priority: 50, rows: 3, hint: 'Spendenkonto 1' %}
+    %p
+      Commerzbank Düsseldorf 
+      %br/
+      Konto 130 194 400 
+      %br/
+      BLZ 300 400 00 
+      %br/
+      BIC COBADEEFFXXX 
+      %br/
+      IBAN DE27 3004 0000 0130 1944 00
+    {% endeditable_text %}
+
+  .impressumcol.col-sm-4
+    %h2 &nbsp;
+    {% editable_text "spendenkonto2", priority: 49, rows: 3, hint: 'Spendenkonto 2' %}
+    %p
+      Stadtsparkasse Düsseldorf 
+      %br/
+      Konto 100 574 3529 
+      %br/
+      BLZ 300 501 10 
+      %br/
+      BIC DUSSDEDDXXX 
+      %br/
+      IBAN DE82 3005 0110 1005 7435 29
+    {% endeditable_text %}
+
+.impressum_content.row
+  .impressumcol.col-sm-8.col-sm-offset-2
+    {% editable_text "spenden_footnote", priority: 48, rows: 3, hint: 'Footnote' %}
+    %p
+      Spenden oder Zustiftungen werden ausschließlich für den Zweck der Krebsbekämpfung in NRW verwendet. Die KrebsStiftung Nordrhein-Westfalen arbeitet gemeinnützig im Sinne des Abschnitts "steuerbegünstigte Zwecke" der Abgabenverordnung.
+
+    {% endeditable_text %}
+
 
 {% endblock %}

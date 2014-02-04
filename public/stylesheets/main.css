@@ -8,7 +8,9 @@ html, body {
 
 header {
   position: relative;
-  height: 418; }
+  height: 418;
+  display: inline-block;
+  width: 940px; }
   header .nav {
     position: relative;
     z-index: 30;
@@ -47,7 +49,8 @@ header {
   header .hero {
     position: relative;
     text-align: center;
-    margin-top: 90px; }
+    margin-top: 90px;
+    height: 520px; }
     header .hero img {
       margin: 0px 0 0 -640px;
       position: absolute;
@@ -65,6 +68,7 @@ header {
         letter-spacing: 1.5px;
         margin-bottom: 7px;
         margin-top: 0;
+        margin-top: 375px;
         display: block; }
       header .hero .container p {
         color: #58595b;
@@ -72,7 +76,8 @@ header {
         font-family: "Istok Web", sans-serif; }
 
 body.index .hero {
-  margin-top: 0; }
+  margin-top: 0;
+  height: 722px; }
   body.index .hero img {
     margin-top: 0;
     z-index: 10; }
@@ -83,11 +88,18 @@ body.index .hero {
 body.index .link_to_home a {
   color: #e98b31; }
 
+@-moz-document url-prefix() {
+  body.index header .hero h1 {
+    padding-top: 80px; } }
+
 body.ueber-uns .ueber-uns a, body.kontakt .kontakt a, body.impressum .impressum a {
   color: #e98b31; }
 
 body.index {
   background: white url("/images/footer_gradient.png") bottom left repeat-x; }
+
+body.impressum .hero p {
+  display: none; }
 
 hr.divider {
   margin-top: 35px;
@@ -354,7 +366,11 @@ hr.divider {
         font-size: 24px;
         color: #414042;
         font-family: "Antonio", sans-serif;
-        margin: 0; }
+        margin: 0;
+        width: 470px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
       .carousel .carousel-inner .item .item_contents .description .donation_box {
         position: absolute;
         bottom: 0;
@@ -378,6 +394,165 @@ hr.divider {
         .carousel .carousel-inner .item .item_contents .description .donation_box .btn_submit_donation {
           margin-top: 32px;
           text-align: center; }
+
+.projekte .project_slider_element .intro p {
+  display: none; }
+
+.project_teaser {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 58px; }
+  .project_teaser a {
+    margin-bottom: 50px; }
+
+.aboutus_content {
+  padding-top: 70px; }
+  .aboutus_content .infocol {
+    text-align: center; }
+    .aboutus_content .infocol h2 {
+      font-family: "Antonio", sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #57b648; }
+    .aboutus_content .infocol p {
+      font-family: "Istok Web", sans-serif;
+      font-size: 14px; }
+
+.aboutusfooter {
+  margin-top: 40px;
+  text-align: center; }
+
+.implementation_steps {
+  color: #58595b;
+  margin-bottom: 82px; }
+  .implementation_steps hr {
+    width: 244px;
+    border: none;
+    background: #e98b31;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 48px; }
+  .implementation_steps h1 {
+    font-family: "Antonio", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    color: #e98b31;
+    text-align: center; }
+  .implementation_steps .actioncol {
+    text-align: center; }
+    .implementation_steps .actioncol h1 {
+      font-size: 18px;
+      text-transform: none; }
+  .implementation_steps .big {
+    font-sizE: 18px;
+    text-align: center; }
+  .implementation_steps .boxed {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #dcdede; }
+  .implementation_steps .social_icons {
+    text-align: center;
+    margin-top: 20px; }
+    .implementation_steps .social_icons a {
+      text-decoration: none; }
+    .implementation_steps .social_icons img {
+      margin: 0 45px; }
+  .implementation_steps .infocol {
+    text-align: center; }
+    .implementation_steps .infocol h2 {
+      font-family: "Antonio", sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #e98b31; }
+    .implementation_steps .infocol p {
+      font-family: "Istok Web", sans-serif;
+      font-size: 14px; }
+
+.share_experiences {
+  margin: 0 auto;
+  margin-bottom: 20px; }
+  .share_experiences hr {
+    border: none;
+    width: 246px;
+    background: #c0c1c2;
+    height: 2px;
+    margin-bottom: 20px; }
+  .share_experiences .container {
+    margin: 0 auto;
+    max-width: 940px;
+    color: #414042; }
+    .share_experiences .container .inner_form_wrapper {
+      padding-top: 48px;
+      max-width: 50%;
+      margin: 0 auto;
+      overflow: auto; }
+      .share_experiences .container .inner_form_wrapper h1 {
+        font-family: "Antonio", sans-serif;
+        font-size: 36px;
+        text-transform: uppercase; }
+      .share_experiences .container .inner_form_wrapper p {
+        font-family: "Istok Web", sans-serif;
+        font-size: 18px; }
+      .share_experiences .container .inner_form_wrapper input[type=text], .share_experiences .container .inner_form_wrapper textarea {
+        padding: 8px 10px;
+        color: #414042;
+        font-family: "Istok Web", sans-serif;
+        font-size: 18px;
+        margin-bottom: 13px;
+        border-color: #c0c1c2; }
+      .share_experiences .container .inner_form_wrapper input[type=file] {
+        margin-bottom: 20px; }
+      .share_experiences .container .inner_form_wrapper input[type=text] {
+        height: 30px;
+        width: 240px;
+        margin-right: 6px;
+        border-color: #c0c1c2;
+        border-style: solid;
+        border-width: 1px; }
+      .share_experiences .container .inner_form_wrapper textarea {
+        width: 422px; }
+      .share_experiences .container .inner_form_wrapper span {
+        font-family: "Antonio", sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+        display: inline-block;
+        line-height: 32px;
+        vertical-align: middle; }
+      .share_experiences .container .inner_form_wrapper .success h1 {
+        font-size: 18px;
+        text-align: center;
+        color: #e98b31; }
+
+.project_list {
+  margin-top: 64px; }
+  .project_list .blueprint {
+    margin-bottom: 62px; }
+    .project_list .blueprint h1 {
+      font-family: "Antonio", sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+      color: #57b648;
+      text-align: left; }
+
+.fundraisingbox {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  text-align: center; }
+
+.impressum_content h2 {
+  font-family: "Antonio", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #e98b31; }
+
+.hobby-ideen .hero p {
+  display: none; }
+.hobby-ideen .hero h1 {
+  margin-bottom: 40px !important; }
 
 footer {
   height: 95px;

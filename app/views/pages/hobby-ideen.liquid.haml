@@ -1,5 +1,5 @@
 ---
-title: Kontakt
+title: Hobby-ideen
 
 # true if the page is included in the menu
 listed: false
@@ -8,7 +8,7 @@ listed: false
 published: true
 
 # position among sibling pages
-position: 6
+# position: 1
 
 # sets a redirection to the given url (301)
 # redirect_url: "<url to a page or to a remote url>"
@@ -24,6 +24,16 @@ position: 6
 
 {% block main %}
 
-%p Hello world
+.row.hobby_ideas_teaser.hobby_ideas
+
+  .hobby_ideas_wrapper.js-masonry{:data => {'masonry-options' => '{"isFitWidth": true, "itemSelector": ".hobby_idea"}' }}
+    {% for idea in contents.user_messages %}
+    {% if idea.active %}
+    .hobby_idea
+      %h1 {{ idea.title }} gegen Krebs
+      %p {{ idea.message }}
+      %p.author {{ idea.name }}
+    {% endif %}
+    {% endfor %}
 
 {% endblock %}

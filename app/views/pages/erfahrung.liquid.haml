@@ -24,6 +24,46 @@ position: 2
 
 {% block main %}
 
-{% include project_carousel %}
+.share_experiences
+  .form_wrapper
+    .container
+      .inner_form_wrapper
+        {% if project   %}
+        .success
+          %h1 Vielen Dank!
+          %p
+            Wir werden Deine Einsendung nach kurzer Pruefung veroeffentlichen.
+          
+
+        {% else %}
+        {% if project.errors %}
+        .form_error
+          %p Es sind leider Fehler beim versenden des Formulars aufgetreten:
+          %ul
+            {% for error in project.errors %}
+            %li 
+              {{ error[0] | capitalize}} - {{error[1]}}
+            {% endfor %}
+        {% endif %}
+        %form{method: "POST", action: "{{contents.projects.public_submission_url}}", enctype:"multipart/form-data"}
+          {% csrf_param %}
+          %input{type: "hidden", value: "/erfahrung", name: "success_callback"}
+          %input{type: "hidden", value: "/erfahrung", name: "error_callback"}
+
+
+          %input{type: "text", name: "content[title]", value: "{{projects.title}}", placeholder: "Mein Hobby"}
+          %span GEGEN KREBS
+          %textarea{name: "content[body]", rows:4, placeholder: "Beschreibe hier was Du gemacht hast und wie Deine Erfahrungen bei Durchführung und Planung waren"}
+            {{projects.message}}
+          %input{type: "text", name: "content[author]", value: "{{projects.name}}", placeholder: "Mein Name"}
+          %input{type: "file", name: "content[featured_image]", accept: "image/*"}
+          %input{type: "text", name: "content[author_email]", value: "{{projects.email}}", placeholder: "Meine E-Mail Adresse"}
+          %input.btn_small{type: "submit", value: 'Abschicken'}
+        {% endif %}
+  .row
+    %hr
+
+
+{% include project_teaser %}
 
 {% endblock %}

@@ -24,6 +24,30 @@ position: 3
 
 {% block main %}
 
-%p Hello world
+.project_list
+  {% for blueprint in contents.blueprints%}
+  {% if blueprint.active %}
+  .row.blueprint
+    {% capture mod %}{{ forloop.index | modulo: 2 }}{% endcapture %}
+    {% if mod == '1' %}
+    .col-sm-2.col-sm-offset-2
+      %img{src: "{{ blueprint.circle_image.url  }}", alt: "{{blueprint.title}}"}/
+    .col-sm-6
+      %h1 {{ blueprint.title }}
+      %p
+        {{ blueprint.description}}
+    {% else %}
+    .col-sm-6.col-sm-offset-2
+      %h1 {{ blueprint.title }}
+      %p
+        {{ blueprint.description }}
+    .col-sm-2
+      %img{src: "{{ blueprint.circle_image.url  }}", alt: "{{blueprint.title}}"}/
+    {% endif %}
+  {% endif %}
+  {% endfor %}
+
+
+  {% include project_carousel %}
 
 {% endblock %}

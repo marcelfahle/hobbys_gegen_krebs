@@ -24,6 +24,72 @@ position: 7
 
 {% block main %}
 
-%p Hello world
+.impressum_content.row
+  .impressumcol.col-sm-4.col-sm-offset-2
+    %h2 Herausgeber
+    {% editable_text "impressum_herausgeber", priority: 50, rows: 3, hint: 'Original: Wie setze ich das um?' %}
+    %p
+      KrebsStiftung Nordrhein-Westfalen 
+      %br/
+      Volmerswerther Str. 20
+      %br/
+      40221 Düsseldorf
+      %br/
+      Tel.: 0211-15760990
+      %br/
+      Fax: 0211-15760999
+      %br/
+      info@krebsstiftung-nrw.de
+    {% endeditable_text %}
+
+  .impressumcol.col-sm-4
+    %h2 verantwortlich
+    {% editable_text "impressum_verantwortlich", priority: 50, rows: 3, hint: 'Original: Wie setze ich das um?' %}
+    %p
+      Dr. M. Schrader
+      %br/
+      KrebsStiftung NRW
+      %br/
+      Volmerswerther Str. 20
+      %br/
+      40221 Düsseldorf
+    {% endeditable_text %}
+    
+
+.impressum_content.row
+  .impressumcol.col-sm-8.col-sm-offset-2
+    %h2 Registergericht
+    {% editable_text "impressum_registergericht", priority: 50, rows: 3, hint: 'Original: Wie setze ich das um?' %}
+    %p
+      Amtsgericht Düsseldorf, Registernummer: VR 3486
+    {% endeditable_text %}
+
+.impressum_content.row
+  .impressumcol.col-sm-8.col-sm-offset-2
+    %h2 Haftungsausschluss
+    {% editable_text "impressum_haftungsausschluss", priority: 50, rows: 3, hint: 'Original: Wie setze ich das um?' %}
+    %p
+      Die KrebsStiftung NRW wendet sich mit ihrem Internetangebot an krebskranke Menschen, Angehörige und Interessierte. Wir bemühen uns um aktuelle, sachlich richtige und verständliche Informationen. Die regelmäßige Pflege der Homepage ist für uns deshalb selbstverständlich. Trotz großer Sorgfalt bei der Erstellung der Inhalte übernimmt die KrebsStiftung NRW keine Haftung für die Richtigkeit oder Vollständigkeit der dargestellten Informationen. Die bereitgestellten Informationen sollen als zusätzliche Orientierungshilfe für Betroffene verstanden werden und können niemals ein persönliches Arztgespräch ersetzen. Die Diagnose und Behandlung einer Erkrankung kann nur durch einen Arzt erfolgen.
+    {% endeditable_text %}
+
+.impressum_content.row
+  .impressumcol.col-sm-8.col-sm-offset-2
+    %h2 Datenschutz
+    {% editable_text "impressum_datenschutz", priority: 50, rows: 3, hint: 'Original: Wie setze ich das um?' %}
+    %p
+      Persönliche Daten werden nicht an Dritte außerhalb der KrebsStiftung NRW weitergegeben.
+    {% endeditable_text %}
+
+
+.impressum_content.row
+  .impressumcol.col-sm-8.col-sm-offset-2
+    %h2 Idee & Konzept
+    %p
+      %a{href: "http://supersieben.de", title: "Supersieben – Business Beratung"} Supersieben – Business Beratung
+
+    %h2 Realisation
+    %p
+      %a{href: "http://gedankenwerk.com", title: "Gedankenwerk - Agentur für neue Medien"} Gedankenwerk - Agentur für neue Medien
+
 
 {% endblock %}

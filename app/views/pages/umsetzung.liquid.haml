@@ -24,6 +24,159 @@ position: 1
 
 {% block main %}
 
+.implementation_steps
+  .row
+    %hr
+    %h1 
+      {% editable_text "step1_headline", priority: 85, rows: 1, format: 'text', hint: 'Original: 1. Schritt: Ort & Zeit festlegen' %}
+      1. Schritt: Ort & Zeit festlegen
+      {% endeditable_text %}
+
+    .row
+      .actioncol.col-sm-5.col-sm-offset-1
+        %img{src: "{{ 'icon-location.png' | theme_image_url }}", alt: "Wohin lade ich meine Freunde ein"}/
+        %h1 
+          {% editable_text "step1_left_headline", priority: 83, rows: 1, format: 'text', hint: 'Original: Wohin lade ich meine Freunde ein' %}
+          Wohin lade ich meine Freunde ein?
+          {% endeditable_text %}
+        {% editable_text "step1_left_text", rows: 3, priority: 80 %}
+        %p
+          Am einfachsten wird es in der Regel sein, Deine Freunde zu Dir nach Hause einzuladen. Vielleicht hast Du aber auch einen anderen Raum, in den noch mehr Freunde passen? Oft wird das Hobby schon vorgeben, wohin Du am besten einlädst.
+        {% endeditable_text %}
+
+      .actioncol.col-sm-5
+        %img{src: "{{ 'icon-wecker.png' | theme_image_url }}", alt: "Wann soll mein kleiner Event stattfinden"}/
+        %h1 
+          {% editable_text "step2_left_headline", priority: 78, rows: 1, format: 'text', hint: 'Original: Wann soll mein kleiner Event stattfinden?' %}
+          Wann soll mein kleiner Event stattfinden?
+          {% endeditable_text %}
+
+        {% editable_text "step2_left_text", rows: 3, priority: 76 %}
+        %p
+          \- Wähle einen Termin der weit genug in der Zukunft liegt, damit möglichst viele Freund können. 
+          %br/
+          \- Überlege wann die meisten Deiner Freunde Zeit hätten: Unter der Woche oder am Wochenende?
+          %br/
+          \- Oder Du lässt Deine Freunde entscheiden: Stelle mehrere Termine per Mail oder Doodle-Umfrage zur Auswahl
+        {% endeditable_text %}
+
+  .row
+    %hr
+    %h1 
+      {% editable_text "step2_headline", priority: 74, rows: 1, format: 'text', hint: 'Original: 2. Schritt: Freunde einladen' %}
+      2. Schritt: Freunde einladen
+      {% endeditable_text %}
+    .col-sm-10.col-sm-offset-1.big
+      {% editable_text "step2_text", rows: 3, priority: 72 %}
+      %p
+        Generell: Je mehr Spenden zusammenkommen desto besser. Also auch: Je mehr Freunde Du einlädst, desto besser. Du wirst selbst am besten wissen, wer sich für Dein Hobby gegen Krebs interessieren könnte. Lade Sie alle ein!
+        %br/
+        %br/
+        Unser Textvorschlag (den Du natürlich beliebig ändern kannst):
+      {% endeditable_text %}
+
+    .col-sm-8.col-sm-offset-2.big.boxed
+      {% editable_text "step2_box_text", rows: 3, priority: 72 %}
+      %p 
+        Liebe Freunde,
+        %br/
+        %br/
+        ich möchte Euch am (Tag.Monat.Jahr), um (Uhrzeit) zu (Dein Hobby und was Du anbietest) einladen – für den guten Zweck: Die Krebsgesellschaft NRW hat die Aktion „Hobbys gegen Krebs“ ins Leben gerufen. Die Idee: Jeder nutzt sein Hobby, um damit Spendengelder für die Krebsgesellschaft zu sammeln. In meinem Fall heißt dies: (Dein Hobby und was Du anbietest) – der Erlös geht an die Krebsgesellschaft.
+      {% endeditable_text %}
+
+
+  .row
+    %h1 
+      {% editable_text "step2_social_headline", priority: 70, rows: 1, format: 'text', hint: 'Original: 2. Schritt: Lass es Deine Freunde wissen' %}
+      Lass es deine Freunde wissen:
+      {% endeditable_text %}
+  .row
+    .social_icons
+      %a{href: "mailto:alle-meine-freunde%40in-nrw.de?subject=Mein%20Hobby%20gegen%20Krebs&body=Liebe%20Freunde%2C%20%0A%0Aich%20m%C3%B6chte%20Euch%20am%20(Tag.Monat.Jahr)%2C%20um%20(Uhrzeit)%20zu%20(Dein%20Hobby%20und%20was%20Du%20anbietest)%20einladen%20%E2%80%93%20f%C3%BCr%20den%20guten%20Zweck%3A%20Die%20Krebsgesellschaft%20NRW%20hat%20die%20Aktion%20%E2%80%9EHobbys%20gegen%20Krebs%E2%80%9C%20ins%20Leben%20gerufen.%20Die%20Idee%3A%20Jeder%20nutzt%20sein%20Hobby%2C%20um%20damit%20Spendengelder%20f%C3%BCr%20die%20Krebsgesellschaft%20zu%20sammeln.%20In%20meinem%20Fall%20hei%C3%9Ft%20dies%3A%20(Dein%20Hobby%20und%20was%20Du%20anbietest)%20%E2%80%93%20der%20Erl%C3%B6s%20geht%20an%20die%20Krebsgesellschaft."}
+        %img{src: "{{ 'icon-mail.png' | theme_image_url }}", alt: "per Mail"}/
+      %a{href: "http://twitter.com"}
+        %img{src: "{{ 'icon-twitter.png' | theme_image_url }}", alt: "per Mail"}/
+      %a{href: "http://facebook.com"}
+        %img{src: "{{ 'icon-facebook.png' | theme_image_url }}", alt: "per Mail"}/
+
+  .row
+    %hr
+    %h1 
+      {% editable_text "step3_headline", priority: 68, rows: 1, format: 'text', hint: 'Original: 3. Schritt: Vorbereitungen & Durchführung' %}
+      3. Schritt: Vorbereitungen & Durchführung
+      {% endeditable_text %}
+
+    -#.infocol.col-sm-3
+    -#  %img{src: "{{ 'icon-haus.png' | theme_image_url }}", alt: "Noch ein Punkt"}/
+    -#  %h2 Noch ein Punkt
+    -#  %p
+    -#    Ein vierter Punkt, der nicht unwichtig ist wird uns auch noch einfallen. Welcher das ist, ist noch zu klären
+    .infocol.col-sm-4
+      %img{src: "{{ 'icon-dollar.png' | theme_image_url }}", alt: "Preise überlegen"}/
+      %h2 
+        {% editable_text "step3_headline1", priority: 66, rows: 1, format: 'text', hint: 'Original: Preise überlegen' %}
+        Preise überlegen
+        {% endeditable_text %}
+      {% editable_text "step3_text1", rows: 3, priority: 64 %}
+      %p
+        Was sollen Deine Freunde zahlen? Wähle Preise, die nicht zu hoch für Deine Freunde sind, aber trotzdem zu einer schönen Summe führen können.
+      {% endeditable_text %}
+
+    .infocol.col-sm-4
+      %img{src: "{{ 'icon-tasse.png' | theme_image_url }}", alt: "Für Essen & Getränke sorgen"}/
+      %h2 
+        {% editable_text "step3_headline2", priority: 62, rows: 1, format: 'text', hint: 'Original: Für Essen & Getränke sorgen' %}
+        Für Essen & Getränke sorgen
+        {% endeditable_text %}
+      {% editable_text "step3_text2", rows: 3, priority: 60 %}
+      %p
+        Ist für alles gesorgt? Auch wenn es nicht ums Kochen oder Essen geht, solltest Du als Gastgeber ans leibliche Wohl Deiner Freunde denken. 
+      {% endeditable_text %}
+
+    .infocol.col-sm-4
+      %img{src: "{{ 'icon-kamera.png' | theme_image_url }}", alt: "Kamera bereitlegen"}/
+      %h2 
+        {% editable_text "step3_headline23, priority: 58, rows: 1, format: 'text', hint: 'Original: Kamera bereithalten' %}
+        Kamera bereitlegen
+        {% endeditable_text %}
+      {% editable_text "step3_text3", rows: 3, priority: 56 %}
+      %p
+        Mache Fotos von Deiner Austellung. Die Fotos kannst Du später hier hochladen und damit andere inspirieren es Dir gleich zu tun.
+      {% endeditable_text %}
+
+  .row
+    %hr
+    %h1 
+      {% editable_text "step4_headline", priority: 54, rows: 1, format: 'text', hint: 'Original: 4. Schritt: Kassensturz' %}
+      4. Schritt: Kassensturz
+      {% endeditable_text %}
+    .col-sm-10.col-sm-offset-1.big
+      {% editable_text "step4_text1", rows: 3, priority: 52 %}
+      %p
+        Dein Event ist vorbei und Du und Deine Freunde hatten eine gute Zeit. Über unser Online-Formular kannst Du uns nun einfach und sicher Deine Spenden-Einnahmen zukommen lassen.
+        %br/
+        %br/
+        %br/
+      {% endeditable_text %}
+      %a.btn_large{href: "/spenden"} Jetzt spenden überweisen
+
+  .row
+    %hr
+    %h1 
+      {% editable_text "step4_headline2", priority: 50, rows: 1, format: 'text', hint: 'Original: Erfahrung teilen' %}
+      Erfahrung teilen
+      {% endeditable_text %}
+    .col-sm-10.col-sm-offset-1.big
+      {% editable_text "step4_text2", rows: 3, priority: 50 %}
+      %p
+        Und? Wie war Dein Event? Lass es uns wissen und inspiriere andere sich ebenfalls für Hobbys gegen Krebs zu engagieren.  
+        %br/
+        %br/
+        %br/
+      {% endeditable_text %}
+      %a.btn_large{href: "/erfahrung"} Jetzt Erfahrung teilen
+
+
 {% include project_teaser %}
 
 {% endblock %}

@@ -1,45 +1,73 @@
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
-    email: "example@example.com"
-    name: "Peter Hugendroth"
-    active: true 
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
-    email: "example@example.com"
-    name: "Peter Hugendroth"
-    active: true 
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, "
-    email: "example@example.com"
-    name: "Peter Hugendroth"
-    active: true 
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
-    email: "example@example.com"
-    name: "Peter Hugendroth"
-    active: true 
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
-    email: "example@example.com"
-    name: "Peter Hugendroth"
-    active: true 
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
-    email: "example@example.com"
-    name: "Peter Hugendroth"
-    active: true 
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error "
-    email: "example@example.com"
-    name: "Peter Hugendroth"
+---
+- Malen:
+    _slug: kucken-backen
+    name: Brigitte
+    email: ''
+    message: ! 'Seit 13 Jahren male ich nun schon. Das Geld von meinem nächsten verkauften
+      Bild werde ich spenden! '
+    active: true
+- Musik:
+    _slug: kaffee-trinken
+    name: Petra M.
+    email: m.fahle@gmail.com
+    message: Eigentlich bin ich Grundschullehrerin. Meine Leidenschaft galt aber immer
+      der Musik. Es gibt nichts Schöneres als Abends noch ein paar Minuten am Klavier
+      zu sitzen! Ich werde meine Freundinnen zu einem kleinen Konzert einladen...
+    active: true
+- Heimwerken:
+    _slug: schwimmen
+    name: Anonym
+    email: ''
+    message: ! 'Vielleicht finde ich ja einige Leute in der Nachbarschaft denen ich
+      etwas beibringen kann. Die jungen Männer von heute können ja oft keinen Nagel
+      in die Wand schlagen. '
+    active: true
+- Modellbau:
+    _slug: super-hobby
+    name: Peter
+    email: ''
+    message: ! 'Modellbau ist mein Hobby. Was ich daraus mache weiß ich noch nicht.
+      Die Aktion hier finde ich aber toll!!! '
+    active: true
+- Yoga:
+    _slug: sadsadasdd
+    name: Anonym
+    email: ''
+    message: ! 'Ich gebe mehrmals in der Woche Yoga-Stunden. Ein schöner Ausgleich.
+      Die Einnahmen der nächsten Stunde spende ich. '
+    active: true
+- Segelfliegen:
+    _slug: kochen
+    name: Rene
+    email: ''
+    message: Ich bin zwar erst im Sommer wieder aktiv. bis dahin lasse ich mir aber
+      etwas einfallen.
+    active: true
+- Reisen:
+    _slug: reisen
+    name: Anonym
+    message: ! "Erstmal muss ich sagen, dass ich ganz begeistert hiervon bin. Das
+      Krebs nicht immer nur mit negativen und schlimmen verbunden wird sondern mit
+      etwas positivem wie Hobbys. Meine Mutter hatte selbst Krebs. Daher weiß ich,
+      dass auch gelacht werden kann und es auch mit Krebs noch Lebensfreude gibt!
+      Mein großes Hobby wenn so sagen will ist das Reisen. Wir haben viele tolle Fotos
+      von all den Orten. Daraus wird sich ein schöner Vortrag machen lassen. Dazu
+      noch eine schöne Möglichkeit alte Erinnerungen aufleben zu lassen. Viel Erfolg!\r\n"
+    active: true
+- Kochen:
+    _slug: kochen-1
+    name: PEter
+    message: DAs werde ich machen
     active: false
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
-    email: "example@example.com"
-    name: "Peter Hugendroth"
+- Test:
+    _slug: test
+    name: Peter
+    email: ''
+    message: Test
     active: false
-- "De finibus gegen Krebs":
-    message: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"
-    email: "example@example.com"
-    name: "Peter Hugendroth"
+- te:
+    _slug: te
+    name: ters
+    email: ''
+    message: ter
     active: false

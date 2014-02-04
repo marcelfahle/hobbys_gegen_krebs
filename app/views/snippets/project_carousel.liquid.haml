@@ -3,15 +3,15 @@
     .col-sm-8.col-sm-offset-2
       .intro
         %h1 
-          Du möchtest Direkt für ein Projekt
+          Du möchtest direkt für ein Projekt 
           %br/
-          der Krebshilfe NRW Spenden?
+          der KrebsStiftung NRW spenden?
         %p
-          Sed ut perspiciatis unde omnis iste natus 
-          error sit voluptatem accusantium doloremque 
-          laudantium, totam rem aperiam, eaque ipsa quae 
-          ab illo inventore veritatis et quasi architecto 
-          beatae vitae dicta sunt explicabo.
+          Die KrebsStiftung NRW engagiert sich fortwährend für eine 
+          Reihe von Projekten zur Prävention von Krebs und Versorgung 
+          krebskranker Menschen. 
+          %br/
+          Hier findest Du eine <a href="/projekte">detaillierte Projektbeschreibung der aktuellen Projekte</a>.
 
   .row.slider_navigation
     %p
@@ -36,7 +36,9 @@
             .description
               %h1 {{ blueprint.title }}
               %p 
-                {{ blueprint.description | truncatewords: 48 }}
+                {{ blueprint.description | truncatewords: 30 }}
+                %br/
+                %a{href:"/projekte"} Mehr erfahren
                 
 
               .donation_box
@@ -45,6 +47,6 @@
                 %input.donation_amount{type: "text", value: "30 €", readonly: "readonly"}/
                 %a.btn_plus{href: "#"}
                 %br/
-                %a.btn_small.btn_submit_donation{href: "#"} Jetzt Spenden
+                %a.btn_small.btn_submit_donation{href: "/spenden?amount=30"} Jetzt Spenden
         {% endif %}
         {% endfor %}

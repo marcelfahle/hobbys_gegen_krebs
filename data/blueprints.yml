@@ -1,24 +1,27 @@
-- "Project 1":
-    description: "Ipsam et nobis error veritatis provident ex soluta recusandae. Recusandae dolores iusto sunt quas illo quisquam sequi. Reiciendis consequatur minus sit officia aut."
-    main_image: "samples/project3.jpg"
-    circle_image: "samples/project3.jpg"
+---
+- Backen:
+    _slug: backen
+    description: The path of the righteous man is beset on all sides by the iniquities
+      of the selfish and the tyranny of evil men. Blessed is he who, in the name of
+      charity and good will, shepherds the weak through the valley of darkness, for
+      he is truly his brother's keeper and the finder of lost children. And I will
+      strike down upon thee with great vengeance and furious anger those who would
+      attempt to poison and destroy My brothers. And you will know My name is the
+      Lord when I lay My vengeance upon thee.
+    main_image: /samples/blueprints/backen/project1.jpg
+    circle_image: /samples/blueprints/backen/project1_circle.jpg
+    posted: 07.01.2014 00:00
     active: true
-
-- "Project 2":
-    description: "Qui enim repellat totam rem. Aut accusamus nihil numquam culpa quaerat debitis autem. Aut non qui a."
-    main_image: "samples/project2.jpg"
-    circle_image: "samples/project2.jpg"
+- Kegeln auf Schlittschuhen:
+    _slug: kegeln-auf-schlittschuhen
+    description: The path of the righteous man is beset on all sides by the iniquities
+      of the selfish and the tyranny of evil men. Blessed is he who, in the name of
+      charity and good will, shepherds the weak through the valley of darkness, for
+      he is truly his brother's keeper and the finder of lost children. And I will
+      strike down upon thee with great vengeance and furious anger those who would
+      attempt to poison and destroy My brothers. And you will know My name is the
+      Lord when I lay My vengeance upon thee.
+    main_image: /samples/blueprints/kegeln-auf-schlittschuhen/project3.jpg
+    circle_image: /samples/blueprints/kegeln-auf-schlittschuhen/project1_circle.jpg
+    posted: 14.01.2014 00:00
     active: true
-
-- "Project 3":
-    description: "Adipisci id accusantium doloribus odit est quia reprehenderit. Aut quibusdam facilis ex culpa tenetur et aliquam sit. Itaque aspernatur tempore minima sint beatae iste et laborum. Voluptas ducimus eum corporis ut in minus."
-    main_image: "samples/project3.jpg"
-    circle_image: "samples/project3.jpg"
-    active: true
-
-- "Project 4":
-    description: "Harum officia cumque dolore aut. Eos saepe magni minus aut deleniti corrupti alias. Exercitationem sit ut repudiandae ex eius debitis. Vel et voluptatem mollitia aut. Laudantium aut possimus eum consequatur voluptate eos vel."
-    main_image: "samples/project4.jpg"
-    circle_image: "samples/project4.jpg"
-    active: false
-

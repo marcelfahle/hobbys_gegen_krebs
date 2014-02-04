@@ -25,6 +25,47 @@ position: 5
 
 {% block main %}
 
-%p Hello world
+.aboutus_content
+  .row
+    .infocol.col-sm-4
+      %img{src: "{{ 'icon-verein.png' | theme_image_url }}", alt: "Der Verein"}/
+      %h2 
+        {% editable_text "aboutus_headline1", priority: 66, rows: 1, format: 'text', hint: 'Original: Der Verein' %}
+        Der Verein
+        {% endeditable_text %}
+      {% editable_text "aboutus_text1", rows: 3, priority: 64 %}
+      %p
+        Krebs ist zu einer Krankheit geworden, mit der jeder im Laufe seines Lebens direkt oder indirekt in Berührung kommt. Umso wichtiger ist die Erforschung dieser Krankheit und die Bereitstellungen und Entwicklung von Beratungsstellen, Kompetenznetzwerken und mehr. Um all dies kümmert sich die Krebsgesellschaft NRW seit über 60 Jahren.
+      {% endeditable_text %}
+
+    .infocol.col-sm-4
+      %img{src: "{{ 'icon-mitgliedwerden.png' | theme_image_url }}", alt: "Mitglied werden"}/
+      %h2 
+        {% editable_text "aboutus_headline2", priority: 62, rows: 1, format: 'text', hint: 'Original: Mitglied werden' %}
+        Der Verein
+        {% endeditable_text %}
+      {% editable_text "aboutus_text2", rows: 3, priority: 60 %}
+      %p
+        Die Krebsgesellschaft ist bei Ihrer Arbeit mehr und mehr auf Spenden angewiesen – und hat zu diesem Zweck 2009 die Gründung der KrebsStiftung NRW initiiert. Zweck der Stiftung ist es Projekte und Initiativen zur Prävention, Therapie und Nachsorge sowie die onkologische Forschung aktiv zu fördern. 
+      {% endeditable_text %}
+
+
+
+    .infocol.col-sm-4
+      %img{src: "{{ 'icon-geschaeftsstelle.png' | theme_image_url }}", alt: "UNSERE GESCHÄFTSSTELLE"}/
+      %h2 
+        {% editable_text "aboutus_headline3", priority: 58, rows: 1, format: 'text', hint: 'Original: Unsere Geschaeftsstelle' %}
+        UNSERE GESCHÄFTSSTELLE
+        {% endeditable_text %}
+      {% editable_text "aboutus_text3", rows: 3, priority: 56 %}
+      %p
+        Spenden oder Zustiftungen werden ausschließlich für den Zweck der Krebsbekämpfung in NRW verwendet. Die KrebsStiftung Nordrhein-Westfalen arbeitet gemeinnützig im Sinne des Abschnitts "steuerbegünstigte Zwecke" der Abgabenverordnung.
+      {% endeditable_text %}
+
+.row
+  .infocol.aboutusfooter
+    %a.btn_large{href: "http://www.krebsstiftung-nrw.de/"} weiter zu krebsstiftung-nrw.de
+
+
 
 {% endblock %}

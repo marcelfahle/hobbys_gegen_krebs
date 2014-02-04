@@ -1,48 +1,49 @@
-- "Sample 1":
-    featured_image: "samples/project1.jpg"
-    body: "Culpa voluptatem et hic eaque aut saepe commodi. Esse architecto nam et accusamus atque consequatur. Asperiores qui eius unde deleniti incidunt. In soluta est nam quo. Praesentium corporis esse sunt minus nobis."
-    author: "Marcel Fahle"
+---
+- Strandparty:
+    _slug: strandparty
+    posted: 14.01.2014 00:00
+    featured_image: /samples/projects/strandparty/project1.jpg
+    body: pilsner yeast krausen caramel malt real ale! keg hoppy hop back carbonation,
+      lagering hoppy tulip glass. craft beer hop back amber brewpub? attenuation goblet
+      chocolate malt.
+    author: Marcel
+    author_email: m.fahle@gmail.com
     active: true
-
-- "Sample 2":
-    featured_image: "samples/project2.jpg"
-    body: "Quod quo nam cumque quia illum voluptas. In sit voluptatibus est quibusdam magni nihil. Est soluta sed impedit aliquam enim praesentium ut. Debitis saepe temporibus sed."
-    author: "Ian Wright"
+- Schneeballschlacht:
+    _slug: schneeballschlacht
+    posted: 14.01.2014 00:00
+    featured_image: /samples/projects/schneeballschlacht/project2.jpg
+    body: The path of the righteous man is beset on all sides by the iniquities of
+      the selfish and the tyranny of evil men. Blessed is he who, in the name of charity
+      and good will, shepherds the weak through the valley of darkness, for he is
+      truly his brother's keeper and the finder of lost children. And I will strike
+      down upon thee with great vengeance and furious anger those who would attempt
+      to poison and destroy My brothers. And you will know My name is the Lord when
+      I lay My vengeance upon thee.
+    author: Ian Wright
+    author_email: m.fahle@gmail.com
     active: true
-
-- "Sample 3":
-    featured_image: "samples/project3.jpg"
-    body: "Quia repellat iste minima. Molestiae quam eum iure. Aut eum maxime et."
-    author: "Frau Holle"
+- Haekeln:
+    _slug: haekeln
+    posted: 01.01.2014 00:00
+    featured_image: /samples/projects/haekeln/project3.jpg
+    body: ! "The path of the righteous man is beset on all sides by the iniquities
+      of the selfish and the tyranny of evil men. Blessed is he who, in the name of
+      charity and good will, shepherds the weak through the valley of darkness, for
+      he is truly his brother's keeper and the finder of lost children. And I will
+      strike down upon thee with great vengeance and furious anger those who would
+      attempt to poison and destroy My brothers. And you will know My name is the
+      Lord when I lay My vengeance upon thee.\r\n\r\nDo you see any Teletubbies in
+      here? Do you see a slender plastic tag clipped to my shirt with my name printed
+      on it? Do you see a little Asian child with a blank expression on his face sitting
+      outside on a mechanical helicopter that shakes when you put quarters in it?
+      No? Well, that's what you see at a toy store. And you must think you're in a
+      toy store, because you're here shopping for an infant named Jeb.\r\n\r\nYour
+      bones don't break, mine do. That's clear. Your cells react to bacteria and viruses
+      differently than mine. You don't get sick, I do. That's also clear. But for
+      some reason, you and I react the exact same way to water. We swallow it too
+      fast, we choke. We get some in our lungs, we drown. However unreal it may seem,
+      we are connected, you and I. We're on the same curve, just on opposite ends.\r\n"
+    author: Fahlo
+    author_email: m.fahle@gmail.com
     active: true
-
-- "Sample 4":
-    featured_image: "samples/project4.jpg"
-    body: "Voluptatem dolore est earum quis. Distinctio ipsum quos laborum sunt repudiandae. Illum consequuntur id et dignissimos odio eius. Voluptate eum et nam debitis laudantium."
-    author: "Ed von Schleck"
-    active: true
-
-- "Sample 2":
-    featured_image: "samples/project2.jpg"
-    body: "Quod quo nam cumque quia illum voluptas. In sit voluptatibus est quibusdam magni nihil. Est soluta sed impedit aliquam enim praesentium ut. Debitis saepe temporibus sed."
-    author: "Ian Wright"
-    active: true
-
-- "Sample 3":
-    featured_image: "samples/project3.jpg"
-    body: "Quia repellat iste minima. Molestiae quam eum iure. Aut eum maxime et."
-    author: "Frau Holle"
-    active: true
-
-- "Sample 4":
-    featured_image: "samples/project4.jpg"
-    body: "Voluptatem dolore est earum quis. Distinctio ipsum quos laborum sunt repudiandae. Illum consequuntur id et dignissimos odio eius. Voluptate eum et nam debitis laudantium."
-    author: "Ed von Schleck"
-    active: true
-
-- "Sample 1":
-    featured_image: "samples/project1.jpg"
-    body: "Culpa voluptatem et hic eaque aut saepe commodi. Esse architecto nam et accusamus atque consequatur. Asperiores qui eius unde deleniti incidunt. In soluta est nam quo. Praesentium corporis esse sunt minus nobis."
-    author: "Marcel Fahle"
-    active: true
-
