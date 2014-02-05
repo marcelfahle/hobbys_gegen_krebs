@@ -66,6 +66,17 @@ position: 5
   .infocol.aboutusfooter
     %a.btn_large{href: "http://www.krebsstiftung-nrw.de/"} weiter zu krebsstiftung-nrw.de
 
+.row
+  .infocol.aboutusfooter
+    {% editable_text "aboutus_links", rows: 3, format: 'html', priority: 56 %}
+    %p
+      Mehr Informationen: 
+      %br/
+      %a{href: "http://www.krebsstiftung-nrw.de/"} http://www.krebsstiftung-nrw.de/
+      %br/
+      %a{href: "http://www.krebsgesellschaft-nrw.de/"} http://www.krebsgesellschaft-nrw.de/
+    {% endeditable_text %}
+
 
 
 {% endblock %}

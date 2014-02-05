@@ -48,3 +48,10 @@ fields:
     required: false
     unique: false
     localized: false
+- teaser:
+    label: Kurzbeschreibung
+    type: text
+    hint: Kurzer Teaser
+    required: true
+    unique: false
+    localized: false
