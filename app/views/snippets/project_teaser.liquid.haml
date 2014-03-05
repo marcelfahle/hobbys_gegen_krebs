@@ -6,7 +6,7 @@
       %a.fancybox{href: "#project_detail-{{forloop.index}}"}
         %img{src: "{{ project.featured_image.url |  resize: '213x160#' }}", alt: "{{project.title}}"}/
       %a.fancybox{href: "#project_detail-{{forloop.index}}"}
-        %h1 {{ project.title }}
+        %h1 {{ project.title }} gegen Krebs
       %p 
         {{ project.body | truncatewords: 20 }}
         %a.fancybox{href: "#project_detail-{{forloop.index}}"} weiter lesen
@@ -18,7 +18,7 @@
         .img
           %img{src: "{{ project.featured_image.url |  resize: '300x240#' }}", alt: "{{project.title}}"}/
         .description
-          %h1 {{ project.title }}
+          %h1 {{ project.title }} gegen Krebs
           %p 
             {{ project.body  }}
           %p.author 
