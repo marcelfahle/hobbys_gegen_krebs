@@ -91,7 +91,6 @@ body.index .link_to_home a {
 @-moz-document url-prefix() {
   body.index header .hero h1 {
     padding-top: 80px; } }
-
 body.ueber-uns .ueber-uns a, body.kontakt .kontakt a, body.impressum .impressum a {
   color: #e98b31; }
 
@@ -623,6 +622,11 @@ a.btn_small, a.btn_large {
 .btn_small:link, .btn_small:visited, .btn_small:hover, .btn_small:active {
   color: white;
   text-decoration: none; }
+
+.col-sm-2-tight {
+  width: 20% !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important; }
 
 ::-webkit-input-placeholder {
   color: #414042; }

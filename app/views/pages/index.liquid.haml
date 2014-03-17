@@ -80,7 +80,18 @@ published: true
         {% endeditable_text %}
         %hr.divider
 
-        .infocol.col-sm-3
+        .infocol.col-sm-2.col-sm-2-tight
+          %img{src: "{{ 'icon-sammeln.png' | theme_image_url }}", alt: "Vorfuehren"}/
+          %h2 
+            {% editable_text "home_col0_headline", priority: 80, rows: 1, format: 'text', hint: 'Original: Sammeln' %}
+            SAMMELN
+            {% endeditable_text %}
+          {% editable_text "home_col0_text", rows: 2, priority: 78 %}
+          %p
+            Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
+            Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
+          {% endeditable_text %}
+        .infocol.col-sm-2.col-sm-2-tight
           %img{src: "{{ 'icon-vorfuehren.png' | theme_image_url }}", alt: "Vorfuehren"}/
           %h2 
             {% editable_text "home_col_headline", priority: 80, rows: 1, format: 'text', hint: 'Original: Vorfuehren' %}
@@ -91,7 +102,7 @@ published: true
             Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
             Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
           {% endeditable_text %}
-        .infocol.col-sm-3
+        .infocol.col-sm-2.col-sm-2-tight
           %img{src: "{{ 'icon-verkaufen.png' | theme_image_url }}", alt: "Verkaufen"}/
           %h2 
             {% editable_text "home_col2_headline", priority: 76, rows: 1, format: 'text', hint: 'Original: Verkaufen' %}
@@ -102,7 +113,7 @@ published: true
             Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
             Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
           {% endeditable_text %}
-        .infocol.col-sm-3
+        .infocol.col-sm-2.col-sm-2-tight
           %img{src: "{{ 'icon-vortragen.png' | theme_image_url }}", alt: "Vortragen"}/
           %h2 
             {% editable_text "home_col3_headline", priority: 72, rows: 1, format: 'text', hint: 'Original: Vortragen' %}
@@ -113,7 +124,7 @@ published: true
             Du hast ein musikalisches Hobby oder eines aus dem Bereich der darstellenden Künste, wie z.B. Tanz, Zauberei, Gesang, Instrumentalmusik, Rap?
             Lade Deine Freunde zu einer Vorführung ein und verlange einen kleinen Eintritt
           {% endeditable_text %}
-        .infocol.col-sm-3
+        .infocol.col-sm-2.col-sm-2-tight
           %img{src: "{{ 'icon-erleben.png' | theme_image_url }}", alt: "Erleben"}/
           %h2 
             {% editable_text "home_col4_headline", priority: 68, rows: 1, format: 'text', hint: 'Original: Erleben' %}
