@@ -197,14 +197,6 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/images\/btn_bg_large.png": {
 		"fileType": 32768,
 		"ignore": 0,

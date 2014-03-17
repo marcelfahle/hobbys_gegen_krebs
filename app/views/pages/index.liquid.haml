@@ -8,8 +8,8 @@ published: true
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "content-type"}/
     %meta{charset: "utf-8"}/
     %title {{ page.title }} - {% if page.seo_title %}{{ page.seo_title }}{% else %}{{ site.seo_title }}{% endif %}
-    %meta{content: "Bootply", name: "generator"}/
     %meta{content: "width=device-width, initial-scale=1, maximum-scale=1", name: "viewport"}/
+    {% seo %}
 
     {{ 'bootstrap.css' | stylesheet_tag }}
     {{ 'fonts.css' | stylesheet_tag }}
