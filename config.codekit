@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16844",
+"creatorBuild": "16921",
 "files": {
 	"\/app\/views\/pages\/404.liquid.haml": {
 		"escapeHTMLCharacters": 0,
@@ -11,6 +11,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/404.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -26,6 +27,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/alle-erfahrungen.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -41,6 +43,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/erfahrung.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -56,6 +59,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/hobby-ideen.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -71,6 +75,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/impressum.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -86,11 +91,21 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/index.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
+		},
+	"\/app\/views\/pages\/index.liquid.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/pages\/index.liquid.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/app\/views\/pages\/projekte.liquid.haml": {
 		"escapeHTMLCharacters": 0,
@@ -101,6 +116,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/projekte.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -116,6 +132,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/spenden.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -131,6 +148,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/ueber_uns.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -146,6 +164,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/pages\/umsetzung.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -161,6 +180,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/snippets\/footer.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -176,6 +196,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/snippets\/project_carousel.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -191,6 +212,7 @@
 		"noEscapeInAttributes": 0,
 		"outputAbbreviatedPath": "\/app\/views\/snippets\/project_teaser.liquid.html",
 		"outputFormat": 2,
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
@@ -204,6 +226,7 @@
 		"initialSize": 1211,
 		"inputAbbreviatedPath": "\/public\/images\/btn_bg_large.png",
 		"outputAbbreviatedPath": "\/public\/images\/btn_bg_large.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -214,6 +237,7 @@
 		"initialSize": 1174,
 		"inputAbbreviatedPath": "\/public\/images\/btn_bg_small.png",
 		"outputAbbreviatedPath": "\/public\/images\/btn_bg_small.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -224,6 +248,7 @@
 		"initialSize": 1031,
 		"inputAbbreviatedPath": "\/public\/images\/btn_minus.png",
 		"outputAbbreviatedPath": "\/public\/images\/btn_minus.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -234,6 +259,7 @@
 		"initialSize": 1115,
 		"inputAbbreviatedPath": "\/public\/images\/btn_plus.png",
 		"outputAbbreviatedPath": "\/public\/images\/btn_plus.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -244,6 +270,7 @@
 		"initialSize": 1103,
 		"inputAbbreviatedPath": "\/public\/images\/footer_gradient.png",
 		"outputAbbreviatedPath": "\/public\/images\/footer_gradient.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -254,6 +281,7 @@
 		"initialSize": 10013,
 		"inputAbbreviatedPath": "\/public\/images\/footerlogo.png",
 		"outputAbbreviatedPath": "\/public\/images\/footerlogo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -264,6 +292,7 @@
 		"initialSize": 2155,
 		"inputAbbreviatedPath": "\/public\/images\/icon-dollar.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-dollar.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -274,6 +303,7 @@
 		"initialSize": 1795,
 		"inputAbbreviatedPath": "\/public\/images\/icon-erfahrungteilen.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-erfahrungteilen.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -284,6 +314,7 @@
 		"initialSize": 1801,
 		"inputAbbreviatedPath": "\/public\/images\/icon-erleben.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-erleben.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -294,6 +325,7 @@
 		"initialSize": 1303,
 		"inputAbbreviatedPath": "\/public\/images\/icon-facebook.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-facebook.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -304,6 +336,7 @@
 		"initialSize": 1351,
 		"inputAbbreviatedPath": "\/public\/images\/icon-geschaeftsstelle.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-geschaeftsstelle.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -314,6 +347,7 @@
 		"initialSize": 1346,
 		"inputAbbreviatedPath": "\/public\/images\/icon-haus.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-haus.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -324,6 +358,7 @@
 		"initialSize": 1684,
 		"inputAbbreviatedPath": "\/public\/images\/icon-kamera.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-kamera.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -334,6 +369,7 @@
 		"initialSize": 1638,
 		"inputAbbreviatedPath": "\/public\/images\/icon-kassensturz.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-kassensturz.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -344,6 +380,7 @@
 		"initialSize": 1866,
 		"inputAbbreviatedPath": "\/public\/images\/icon-location.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-location.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -354,6 +391,7 @@
 		"initialSize": 1346,
 		"inputAbbreviatedPath": "\/public\/images\/icon-mail.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-mail.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -364,6 +402,7 @@
 		"initialSize": 1925,
 		"inputAbbreviatedPath": "\/public\/images\/icon-mitgliedwerden.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-mitgliedwerden.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -374,6 +413,7 @@
 		"initialSize": 3385,
 		"inputAbbreviatedPath": "\/public\/images\/icon-sammeln.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-sammeln.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -384,6 +424,7 @@
 		"initialSize": 1722,
 		"inputAbbreviatedPath": "\/public\/images\/icon-tasse.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-tasse.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -394,6 +435,7 @@
 		"initialSize": 1982,
 		"inputAbbreviatedPath": "\/public\/images\/icon-twitter.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-twitter.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -404,6 +446,7 @@
 		"initialSize": 2256,
 		"inputAbbreviatedPath": "\/public\/images\/icon-verein.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-verein.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -414,6 +457,7 @@
 		"initialSize": 1895,
 		"inputAbbreviatedPath": "\/public\/images\/icon-verkaufen.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-verkaufen.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -424,6 +468,7 @@
 		"initialSize": 1627,
 		"inputAbbreviatedPath": "\/public\/images\/icon-vorfuehren.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-vorfuehren.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -434,6 +479,7 @@
 		"initialSize": 1939,
 		"inputAbbreviatedPath": "\/public\/images\/icon-vortragen.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-vortragen.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -444,6 +490,7 @@
 		"initialSize": 2251,
 		"inputAbbreviatedPath": "\/public\/images\/icon-wecker.png",
 		"outputAbbreviatedPath": "\/public\/images\/icon-wecker.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -454,6 +501,7 @@
 		"initialSize": 151163,
 		"inputAbbreviatedPath": "\/public\/images\/project1.jpg",
 		"outputAbbreviatedPath": "\/public\/images\/project1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -464,6 +512,7 @@
 		"initialSize": 9473,
 		"inputAbbreviatedPath": "\/public\/images\/project1_circle.jpg",
 		"outputAbbreviatedPath": "\/public\/images\/project1_circle.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -474,6 +523,7 @@
 		"initialSize": 296729,
 		"inputAbbreviatedPath": "\/public\/images\/project2.jpg",
 		"outputAbbreviatedPath": "\/public\/images\/project2.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -484,6 +534,7 @@
 		"initialSize": 80577,
 		"inputAbbreviatedPath": "\/public\/images\/project3.jpg",
 		"outputAbbreviatedPath": "\/public\/images\/project3.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -494,6 +545,7 @@
 		"initialSize": 765733,
 		"inputAbbreviatedPath": "\/public\/images\/project4.jpg",
 		"outputAbbreviatedPath": "\/public\/images\/project4.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -504,6 +556,7 @@
 		"initialSize": 26788,
 		"inputAbbreviatedPath": "\/public\/images\/sitelogo.png",
 		"outputAbbreviatedPath": "\/public\/images\/sitelogo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -514,6 +567,7 @@
 		"initialSize": 2143,
 		"inputAbbreviatedPath": "\/public\/images\/slider_circle.png",
 		"outputAbbreviatedPath": "\/public\/images\/slider_circle.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -524,6 +578,7 @@
 		"initialSize": 2373,
 		"inputAbbreviatedPath": "\/public\/images\/tools.png",
 		"outputAbbreviatedPath": "\/public\/images\/tools.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -534,6 +589,7 @@
 		"initialSize": 31551,
 		"inputAbbreviatedPath": "\/public\/images\/whatsyourhobby-bg.jpg",
 		"outputAbbreviatedPath": "\/public\/images\/whatsyourhobby-bg.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -543,6 +599,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/bootstrap-ck.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/bootstrap-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -553,6 +610,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/bootstrap.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/bootstrap-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -563,6 +621,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/bootstrap.min-ck.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/bootstrap.min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -573,6 +632,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/bootstrap.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -583,6 +643,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/jquery.fancybox.pack-ck.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/jquery.fancybox.pack-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -593,6 +654,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/jquery.fancybox.pack.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/jquery.fancybox.pack-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -603,6 +665,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/jquery.mousewheel-3.0.6.pack-ck.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/jquery.mousewheel-3.0.6.pack-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -613,6 +676,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/jquery.mousewheel-3.0.6.pack.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/jquery.mousewheel-3.0.6.pack-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -625,6 +689,7 @@
 		"inputAbbreviatedPath": "\/public\/javascripts\/main.js.coffee",
 		"minifyOutput": 1,
 		"outputAbbreviatedPath": "\/public\/javascripts\/main.js.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
@@ -635,6 +700,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/main.js.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/main.js-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -645,6 +711,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/masonry.pkgd.min-ck.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/masonry.pkgd.min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -655,6 +722,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/javascripts\/masonry.pkgd.min.js",
 		"outputAbbreviatedPath": "\/public\/javascripts\/min\/masonry.pkgd.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -666,6 +734,7 @@
 		"initialSize": 2939,
 		"inputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-114x114-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-114x114-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -676,6 +745,7 @@
 		"initialSize": 3614,
 		"inputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-144x144-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-144x144-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -686,6 +756,7 @@
 		"initialSize": 1932,
 		"inputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-72x72-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-72x72-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -696,6 +767,7 @@
 		"initialSize": 1577,
 		"inputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -706,6 +778,7 @@
 		"initialSize": 2939,
 		"inputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-114x114-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-114x114-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -716,6 +789,7 @@
 		"initialSize": 3614,
 		"inputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-144x144-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-144x144-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -726,6 +800,7 @@
 		"initialSize": 1932,
 		"inputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-72x72-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-72x72-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -736,6 +811,7 @@
 		"initialSize": 1577,
 		"inputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/public\/samples\/assets\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -746,6 +822,7 @@
 		"initialSize": 889,
 		"inputAbbreviatedPath": "\/public\/samples\/assets\/favicon.png",
 		"outputAbbreviatedPath": "\/public\/samples\/assets\/favicon.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -756,6 +833,7 @@
 		"initialSize": 90029,
 		"inputAbbreviatedPath": "\/public\/samples\/assets\/hero_home.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/assets\/hero_home.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -766,6 +844,7 @@
 		"initialSize": 44244,
 		"inputAbbreviatedPath": "\/public\/samples\/assets\/hero_umsetzung.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/assets\/hero_umsetzung.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -776,6 +855,7 @@
 		"initialSize": 151163,
 		"inputAbbreviatedPath": "\/public\/samples\/blueprints\/backen\/project1.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/blueprints\/backen\/project1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -786,6 +866,7 @@
 		"initialSize": 9473,
 		"inputAbbreviatedPath": "\/public\/samples\/blueprints\/backen\/project1_circle.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/blueprints\/backen\/project1_circle.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -796,6 +877,7 @@
 		"initialSize": 9473,
 		"inputAbbreviatedPath": "\/public\/samples\/blueprints\/kegeln-auf-schlittschuhen\/project1_circle.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/blueprints\/kegeln-auf-schlittschuhen\/project1_circle.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -806,6 +888,7 @@
 		"initialSize": 80577,
 		"inputAbbreviatedPath": "\/public\/samples\/blueprints\/kegeln-auf-schlittschuhen\/project3.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/blueprints\/kegeln-auf-schlittschuhen\/project3.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -816,6 +899,7 @@
 		"initialSize": 889,
 		"inputAbbreviatedPath": "\/public\/samples\/favicon.png",
 		"outputAbbreviatedPath": "\/public\/samples\/favicon.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -826,6 +910,7 @@
 		"initialSize": 49627,
 		"inputAbbreviatedPath": "\/public\/samples\/pages\/header_erfahrung.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/pages\/header_erfahrung.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -836,6 +921,7 @@
 		"initialSize": 90029,
 		"inputAbbreviatedPath": "\/public\/samples\/pages\/header_home.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/pages\/header_home.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -846,6 +932,7 @@
 		"initialSize": 80710,
 		"inputAbbreviatedPath": "\/public\/samples\/pages\/header_projekte.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/pages\/header_projekte.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -856,6 +943,7 @@
 		"initialSize": 81331,
 		"inputAbbreviatedPath": "\/public\/samples\/pages\/header_ueber_uns.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/pages\/header_ueber_uns.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -866,6 +954,7 @@
 		"initialSize": 44244,
 		"inputAbbreviatedPath": "\/public\/samples\/pages\/header_umsetzung.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/pages\/header_umsetzung.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -876,6 +965,7 @@
 		"initialSize": 90029,
 		"inputAbbreviatedPath": "\/public\/samples\/pages\/hero_home.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/pages\/hero_home.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -886,6 +976,7 @@
 		"initialSize": 44244,
 		"inputAbbreviatedPath": "\/public\/samples\/pages\/hero_umsetzung.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/pages\/hero_umsetzung.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -896,6 +987,7 @@
 		"initialSize": 151163,
 		"inputAbbreviatedPath": "\/public\/samples\/project1.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/project1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -906,6 +998,7 @@
 		"initialSize": 9473,
 		"inputAbbreviatedPath": "\/public\/samples\/project1_circle.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/project1_circle.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -916,6 +1009,7 @@
 		"initialSize": 296729,
 		"inputAbbreviatedPath": "\/public\/samples\/project2.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/project2.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -926,6 +1020,7 @@
 		"initialSize": 80577,
 		"inputAbbreviatedPath": "\/public\/samples\/project3.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/project3.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -936,6 +1031,7 @@
 		"initialSize": 765733,
 		"inputAbbreviatedPath": "\/public\/samples\/project4.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/project4.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -946,6 +1042,7 @@
 		"initialSize": 80577,
 		"inputAbbreviatedPath": "\/public\/samples\/projects\/haekeln\/project3.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/projects\/haekeln\/project3.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -956,6 +1053,7 @@
 		"initialSize": 296729,
 		"inputAbbreviatedPath": "\/public\/samples\/projects\/schneeballschlacht\/project2.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/projects\/schneeballschlacht\/project2.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -966,6 +1064,7 @@
 		"initialSize": 151163,
 		"inputAbbreviatedPath": "\/public\/samples\/projects\/strandparty\/project1.jpg",
 		"outputAbbreviatedPath": "\/public\/samples\/projects\/strandparty\/project1.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -975,6 +1074,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/bootstrap-theme.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/public\/stylesheets\/bootstrap-theme.min.css": {
@@ -983,6 +1083,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/bootstrap-theme.min.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/public\/stylesheets\/bootstrap.css": {
@@ -991,6 +1092,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/public\/stylesheets\/bootstrap.min.css": {
@@ -999,6 +1101,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/bootstrap.min.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/public\/stylesheets\/fancybox_overlay.png": {
@@ -1008,6 +1111,7 @@
 		"initialSize": 1003,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/fancybox_overlay.png",
 		"outputAbbreviatedPath": "\/public\/stylesheets\/fancybox_overlay.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1018,6 +1122,7 @@
 		"initialSize": 1362,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/fancybox_sprite.png",
 		"outputAbbreviatedPath": "\/public\/stylesheets\/fancybox_sprite.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1028,6 +1133,7 @@
 		"initialSize": 6553,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/fancybox_sprite@2x.png",
 		"outputAbbreviatedPath": "\/public\/stylesheets\/fancybox_sprite@2x.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1037,6 +1143,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/fonts.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/public\/stylesheets\/jquery.fancybox.css": {
@@ -1045,6 +1152,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/jquery.fancybox.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/public\/stylesheets\/main.css": {
@@ -1053,6 +1161,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/public\/stylesheets\/main.css.sass": {
@@ -1064,6 +1173,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/stylesheets\/main.css.sass",
 		"outputAbbreviatedPath": "\/public\/stylesheets\/main.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -1147,6 +1257,14 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"no_empty_param_list": {
 			"active": 0,
 			"flagValue": -1
@@ -1156,6 +1274,10 @@
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1181,6 +1303,10 @@
 			},
 		"no_trailing_whitespace": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
@@ -1301,10 +1427,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"gcl": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -1417,10 +1539,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"onevar": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"phantom": {
 			"active": 0,
 			"flagValue": -1
@@ -1457,10 +1575,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"smarttabs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"strict": {
 			"active": 0,
 			"flagValue": -1
@@ -1473,10 +1587,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"trailing": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"typed": {
 			"active": 0,
 			"flagValue": -1
@@ -1487,10 +1597,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"white": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {

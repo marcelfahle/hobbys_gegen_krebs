@@ -78,11 +78,16 @@ header {
 body.index .hero {
   margin-top: 0;
   height: 722px; }
+  body.index .hero .container {
+    overflow: auto !important; }
   body.index .hero img {
     margin-top: 0;
     z-index: 10; }
   body.index .hero h1 {
-    margin-top: 55px; }
+    margin-top: 505px; }
+@-moz-document url-prefix() {
+  body.index .hero h1 {
+    margin-top: 420px; } }
   body.index .hero h1, body.index .hero p {
     color: white; }
 body.index .link_to_home a {

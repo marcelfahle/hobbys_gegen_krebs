@@ -10,7 +10,6 @@ html, body
 
 
 
-
 header
   position: relative
   height: 418
@@ -96,11 +95,18 @@ body.index
   .hero
     margin-top: 0
     height: 722px
+    .container
+      overflow: auto !important
+      
     img
       margin-top: 0
       z-index: 10
     h1
-      margin-top: 55px 
+      margin-top: 505px
+      //margin-top: 55px 
+    @-moz-document url-prefix()
+      h1
+        margin-top: 420px
     h1, p
       color: #fff
   .link_to_home

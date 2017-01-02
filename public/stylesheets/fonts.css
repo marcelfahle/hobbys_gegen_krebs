@@ -3,7 +3,7 @@
   src: url('/fonts/antonio/antonio-bold-webfont.eot');
   src:
       url('/fonts/antonio/antonio-bold-webfont.eot?#iefix') format('embedded-opentype'),
-      url('https://hobbys-gegen-krebs.s3.amazonaws.com/sites/52c9e9f5b904298d1e000002/theme/fonts/antonio/antonio-bold-webfont.woff') format('woff'),
+      url('/fonts/antonio/antonio-bold-webfont.woff') format('woff'),
       url('/fonts/antonio/antonio-bold-webfont.ttf') format('truetype'),
       url('/fonts/antonio/antonio-bold-webfont.svg#antoniobold') format('svg');
   font-style: bold;
