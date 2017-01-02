@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# ruby '1.9.3'
+ruby '2.3.1'
 
 #gem 'locomotivecms_wagon', '1.4.0'
 gem 'locomotivecms_wagon', '2.0.0'
