@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 #gem 'locomotivecms_wagon', '1.4.0'
 gem 'locomotivecms_wagon', '2.0.0'
 
+gem 'railties'
+
 group :development do
   # Mac OS X
   gem 'rb-fsevent', '~> 0.9.1', require: RUBY_PLATFORM.include?('darwin') && 'rb-fsevent'
